@@ -1,9 +1,9 @@
 // Mixins in here
-.custom-btn {
-    background: @eastern-blue;
+.cheese-btn (@button-bg: @eastern-blue , @button-font: @white) {
+    background: @button-bg;
     width: 200px;
     height:45px;
-    color:@white;
+    color:@button-font;
     display:block;
     border-radius: 10px;
     cursor: pointer;
